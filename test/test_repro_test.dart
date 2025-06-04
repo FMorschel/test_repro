@@ -1,5 +1,8 @@
-import 'package:test_repro/test_repro.dart';
 import 'package:test/test.dart';
+
+int calculate() {
+  return 6 * 7;
+}
 
 void main() {
   group('Test repro', () {
